@@ -1,0 +1,45 @@
+﻿
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Криптография</title>
+    <script src="~/js/site.js"></script>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+</head>
+<body>
+    <div class="panel panel-success">
+        <div class="panel-heading text-center"><h4>Шифр Вижинера</h4></div>
+        <div class="panel-body">
+            <div class="text-center">
+                <h5>Введите текст </h5>
+                <input id="TextBoxInputText" type="text" />
+            </div>
+            <div class="text-center">
+                <h6>Введите ключ шифрования</h6>
+                <input id="TextBoxKeyText" type="text" />
+            </div>
+            <div class="text-center">
+                <h6>Результат</h6>
+                <input id="TextBoxPostText" type="text" />
+            </div>
+            <div class="text-center">
+                <h7>⠀⠀⠀⠀</h7>
+            </div>
+            <div class="text-center">
+                <a class="btn btn-success" onclick="Crypt();">Зашифровать</a>
+            </div>
+            <div class="text-center">
+                <h7>⠀⠀⠀⠀</h7>
+            </div>
+            <div class="text-center">
+                <a class="btn btn-success" onclick="deCrypt();">Расшифровать</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

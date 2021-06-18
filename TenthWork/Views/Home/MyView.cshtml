@@ -1,0 +1,45 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Cистемы счисления</title>
+    <script src="~/js/site.js"></script>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+</head>
+<body>
+    <div class="text-center" id="Greeting">
+        <h3> Здавствуйте представляю вам алгоритм перевода </h3>
+
+        <h4>из десятичной системы счисления в шестнадцатиричную</h4>
+
+    </div>
+    <div class="text-center">
+        <h5>Введите число которе хотите перевести</h5>
+        <input id="TextBoxInputString" type="text" />
+    </div>
+    <div class="text-center">
+        <h6>Число в двоичном представлении</h6>
+        <input id="TextBoxPostString" type="text" />
+    </div>
+    <div class="text-center">
+        <h6>Шестнадцацитиричное число </h6>
+        <input id="TextBoxAnswerString" type="text" />
+    </div>
+    <div class="text-center">
+        <h7>⠀⠀⠀⠀</h7>
+    </div>
+    <div class="text-center">
+        <a class="btn btn-success" onclick="R();">Перевести</a>
+    </div>
+    <div class="text-center">
+        <h7>⠀⠀⠀⠀</h7>
+    </div>
+    <div class="text-center" id="Confirm">
+        <a class="btn btn-primary" asp-action="RsvpForm">Перейти ко второй части</a>
+    </div>
+</body>
+</html>
